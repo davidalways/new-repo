@@ -3,3 +3,4 @@ function david(arr1) {
 }
 
 david();
+console.log("demo")
