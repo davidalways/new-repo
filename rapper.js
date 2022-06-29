@@ -25,17 +25,17 @@ const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, inval
 
 
 // Add your functions below:
-
+//Abigail Appah did this work
 function validateCred(arr) {
     let n = arr.length;
     let reversed_arr = arr.reverse();
-    let total_sum = 0; 
-    for (let i = 0; i<n; i++){ 
+    let total_sum = 0;
+    for (let i = 0; i < n; i++) {
         if (i % 2 === 0) {
-            total_sum +=  reversed_arr[i];
+            total_sum += reversed_arr[i];
         }
         else {
-            doubled_var =  reversed_arr[i] * 2
+            doubled_var = reversed_arr[i] * 2
             if (doubled_var > 9) {
                 doubled_var -= 9;
                 total_sum += doubled_var;
@@ -81,8 +81,8 @@ function idInvalidCardCompanies(invalidCards) {
         if (!uniqueCompanies.includes(c)) {
             uniqueCompanies.push(c);
         }
-});
-        return uniqueCompanies;
+    });
+    return uniqueCompanies;
 
 }
 
@@ -90,7 +90,7 @@ function idInvalidCardCompanies(invalidCards) {
 
 // batch.forEach(c => console.log(validateCred(c)));
 // console.log(findInvalidCards(batch));
-// invalidCardsList = findInvalidCards(batch); 
+// invalidCardsList = findInvalidCards(batch);
 // console.log(idInvalidCardCompanies(invalidCardsList));
 
 
