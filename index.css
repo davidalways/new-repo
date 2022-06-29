@@ -1,0 +1,24 @@
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#info {
+    display: none;
+}
+
+#more-info {
+    display: none;
+}
+
+#logo {
+    display: none;
+}
+
+.centered {
+    display: none;
+}
+
+.m {
+    display: none;
+}
