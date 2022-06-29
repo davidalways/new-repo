@@ -105,3 +105,4 @@ oneC.addEventListener('keydown', colorChange)
 mul.addEventListener('keyup', colorChange)
 
 
+console.log("i will be back")
