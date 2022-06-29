@@ -4,3 +4,4 @@ function david(arr1) {
 
 david();
 console.log("demo")
+conseol.log(she is here)
